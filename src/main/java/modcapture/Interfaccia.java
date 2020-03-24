@@ -222,6 +222,7 @@ public class Interfaccia extends javax.swing.JFrame {
         jTable1.setValueAt(app.getStato(), row, 4);
         
         String[] ultra=alfa[row];
+        System.out.println(app.getStato());
         Details u=new Details(ultra,row,listapp[row],directory,this);
         u.setVisible(true);
 
